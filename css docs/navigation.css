@@ -1,0 +1,54 @@
+
+body{
+    margin:0px;
+}
+nav{
+    position:fixed;
+    top:0%;
+    z-index:1;
+}
+nav ul{
+    list-style-type:none;
+    margin:0px;
+    padding:0px;
+    background-color:rgb(44, 64, 123);
+    overflow:hidden;
+    width:100%;
+    position:fixed;
+}
+nav ul li a{
+    text-decoration:none;
+    text-transform:capitalize;
+    display:block;
+    padding:16px 32px;
+    text-align:center;
+    color:white;
+    
+}
+nav ul li a:hover{
+    background-color:rgb(5, 3, 17);
+}
+nav ul li{
+    float:left;
+    width:130px;
+    border-bottom:1px solid black;
+}
+nav ul li#right{
+    float:right;
+}
+nav ul li img{
+    width:100px;
+    height:45px;
+    padding:0px;
+    margin:0px;
+}
+#menu div ul li{
+    display:none;
+}
+#menu:hover div ul li{
+    display:block;
+}
+#menu div ul{
+    width:130px;
+}
+/*rgb(44, 64, 123);*/
